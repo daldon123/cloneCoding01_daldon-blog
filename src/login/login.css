@@ -1,0 +1,50 @@
+.login{
+    margin-top: 50px;
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(
+        rgba(255, 255, 255, 0.459),rgba(255, 255, 255, 0.459)
+        ),
+        url(/public/탄생돈.JPG);
+    background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.loginTitle{
+    font-size: 50px;
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm>label{
+    margin: 10px 0;
+}
+.loginInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.loginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: orange;
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}

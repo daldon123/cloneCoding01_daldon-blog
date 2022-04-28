@@ -1,0 +1,51 @@
+.register{
+    margin-top: 50px;
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(
+        rgba(255, 255, 255, 0.459),rgba(255, 255, 255, 0.459)
+        ),
+        url(/public/달돈총.JPG);
+    background-size: cover;
+    background-position: 0px -700px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.registerTitle{
+    font-size: 50px;
+}
+.registerForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm>label{
+    margin: 10px 0;
+}
+.registerInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.registerLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: orange;
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
